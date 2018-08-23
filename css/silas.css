@@ -1,23 +1,69 @@
-body{
-	background-color: #2196F3;
-}
-	
-.left { grid-area: left;
-		overflow-wrap: break-word;}
-.left2 { grid-area: left; visibility: hidden }
-.right { grid-area: right; 
-		background-image: url("true_silas.svg");}
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'left right right right right right';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-container {
-  text-align: center;
-  padding: 20px 0px;
-  font-size: 30px;
+* {
+    box-sizing: border-box;
+	background-color: wheat;
 }
 
+[class*="col-"] {
+    float: left;
+	padding: 15px;
+}
+
+
+.header{
+	text-align: center;
+	font-family: 'Ranga', cursive;
+}
+
+#page-header{
+	font-size: 3em;
+}
+
+.left{
+	position: relative;
+	background-color: floralwhite;
+	height: 75vh;
+	border-color: black;
+	border: solid;
+	font-family: sans-serif;
+	
+}
+
+
+#instructions-header{
+	font-size: 1.5em;
+}
+
+.left-body{
+	max-height: inherit;
+	box-sizing:border-box;
+}
+
+#counter{
+	position: absolute;
+	bottom: 3%;
+	left: 80%;
+	
+	background-color: orange;
+}
+
+
+.right{
+	background-color: red;
+	height: 75vh;
+}
+
+disclaimer{
+	text-align: left;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+	.col-0 {width: 100%;}
+    .col-1 {width: 20%;}
+    .col-2 {width: 80%;}
+    
+}

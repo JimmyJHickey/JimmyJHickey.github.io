@@ -3,62 +3,67 @@
 
 <head>
 
-<!-- Use UTF-8 character encoding -->
-<meta charset="UTF-8">
+  <!-- Use UTF-8 character encoding -->
+  <meta charset="UTF-8">
 
-<!-- Render with Edge -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Render with Edge -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<!-- Scale to size of device -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Scale to size of device -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Title of page -->
-<title>$ila$ Bergen</title>
-
+<!--Google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
 	
-<style>
-body{
-	background-color: #2196F3;
-}
-	
-.left { grid-area: left; }
-.left2 { grid-area: left; visibility: hidden }
-.right { grid-area: right; }
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'left right right right right right';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-container {
-  text-align: center;
-  padding: 20px 0px;
-  font-size: 30px;
-}
+  <!-- Title of page -->
+  <title>$ila$ Bergen</title>
 
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "css/silas.css" />
 
-</style>
-	
 </head>
 
 <body>
 
+	<div class="col-0 header" id="page-header">Should You Give Silas Bergen Occupational Invincibility?</div>
+
+	<div class="col-1 left">
+		<div class="instructions">
+			<div class="header" id="instructions-header">Your Mission</div>
+			<div class="left-body">
+				<p>Explore Dr. Bergen's office. 
+				Click on an object to provide information to help you make your decision. When you find a new object, the counter at the bottom will increase. Once you have found all the objects you can read the verdict.</p>
+			</div>
+		</div>
+		
+		
+		
+		<div id="counter">0/6</div>
+	</div>
+
+	<div class="col-2 right">
+		Right
+	</div>
 
 
-<div class="grid-container">
-  <div class="left">Why You Should Give Silas Bergen Occupational Invincibility
-	<br /><br />
-	Warning: Some artistic liberties have been taken to create this assessment.</div>
-	<div class="left2">IMLEFt</div>
-  <div class="right">Right</div>
-</div>
+		<div class="col-2" id="disclaimer"><u>Disclaimers</u>
+		<ul>
+			<li>I am not an artist. (As you probably noticed.)</li>
+			<li>I have little experience in web development and am learning how to make this from scratch as I go.</li>
+				<ul>
+					<li> The source code can be found on <a href=https://github.com/JimmyJHickey/jimmyjhickey.github.io>GitHub</a>. </li>
+				</ul>
+			<li>Some artistic liberties have been taken in the arrangement of Dr. Bergen's office.</li>
+		</ul>
+	</div>
 
+	<div class="col-1" id="info"> Information</div>
 
 </body>
 
 
 
 <!-- Thanks for reading! <3 -->
+
 </html>
