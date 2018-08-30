@@ -23,6 +23,7 @@
 	display: initial;
 }
 
+/* Hide elements until they are shown by JS*/
 #monitor{
 	display: none;
 }
@@ -64,11 +65,9 @@
 
 .left-side-header{
 	font-size: 2em;
-	text-align: center;
 }
 
 .left-image{
-	text-align: center;
 	max-width: 150px;
 }
 
@@ -76,26 +75,26 @@
 	text-align: left;
 }
 
+/* aligns verdict button to the right*/
 #bottom-of-left{
 	text-align: right;
 }
 
-#counter{
-	text-align: right;
-}
 
 #verdict_button{
 	visibility: hidden;
 	background-color: white;
 }
 
+#counter{
+	text-align: right;
+}
+
+
+/* Image */
 .silas{
 	max-height: 500px;
 	max-width: 750px;
-}
-
-disclaimer{
-	text-align: left;
 }
 
 
@@ -105,6 +104,7 @@ disclaimer{
 	float: left;
 	padding: 15px;
 }
+/* Column widths*/
 @media only screen and (min-width: 768px) {
     /* For desktop: */
 	.col-0 {width: 100%;}
