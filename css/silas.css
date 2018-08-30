@@ -3,67 +3,112 @@
 	background-color: wheat;
 }
 
-[class*="col-"] {
-    float: left;
-	padding: 15px;
-}
-
 
 .header{
 	text-align: center;
 	font-family: 'Ranga', cursive;
 }
 
+
+
 #page-header{
 	font-size: 3em;
 }
 
+#myname{
+	font-size: .75em;
+}
+
+#instructions{
+	display: initial;
+}
+
+#monitor{
+	display: none;
+}
+
+#officeHours{
+	display: none;
+}
+
+#mudacSign{
+	display: none;
+}
+
+#icots{
+	display: none;
+}
+
+#seattle{
+	display: none;
+}
+
+#verdict{
+	display: none;
+}
+
 .left{
+	display: block;
 	position: relative;
 	background-color: floralwhite;
-	height: 75vh;
-	border-color: black;
-	border: solid;
 	font-family: sans-serif;
-	
+	text-align: center;
+	overflow: auto;
+	max-height: 590px;
+
 }
 
-
-#instructions-header{
-	font-size: 1.5em;
+.left *{
+	background-color: floralwhite;
 }
 
-.left-body{
-	max-height: inherit;
-	box-sizing:border-box;
+.left-side-header{
+	font-size: 2em;
+	text-align: center;
+}
+
+.left-image{
+	text-align: center;
+	max-width: 150px;
+}
+
+.left p{
+	text-align: left;
+}
+
+#bottom-of-left{
+	text-align: right;
 }
 
 #counter{
-	position: absolute;
-	bottom: 3%;
-	left: 80%;
-	
-	background-color: orange;
+	text-align: right;
 }
 
+#verdict_button{
+	visibility: hidden;
+	background-color: white;
+}
 
-.right{
-	background-color: red;
-	height: 75vh;
+.silas{
+	max-height: 500px;
+	max-width: 750px;
 }
 
 disclaimer{
 	text-align: left;
 }
 
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+	float: left;
+	padding: 15px;
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
 	.col-0 {width: 100%;}
-    .col-1 {width: 20%;}
-    .col-2 {width: 80%;}
+    .col-1 {width: 30%;}
+    .col-2 {width: 70%;}
     
 }
