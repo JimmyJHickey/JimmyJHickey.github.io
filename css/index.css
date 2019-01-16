@@ -1,0 +1,33 @@
+*{
+	background-color: black;
+	color: lightpink;
+	font-family: monospace;
+	box-sizing: border-box;
+}
+
+.header-text{
+	font-size: 60px;
+	text-decoration: underline;
+}
+
+.header-caption{
+	font-size: 35px;
+}
+
+
+
+#options_bar{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#options_bar > li {
+	font-size: 25px;
+	padding: 0px 40px 0px 40px;
+	justify-content: center;
+	flex: 1;
+}
