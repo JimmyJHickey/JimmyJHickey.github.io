@@ -1,6 +1,6 @@
 // Jimmy Hickey
 // 2018-08-31
-// Java Script for Silas review page
+// JavaScript for Silas review page
 // Mostly deals with clicking elements on SVG image and changing content accordingly
 
 // Brackets freaks out with errors without the following line.
