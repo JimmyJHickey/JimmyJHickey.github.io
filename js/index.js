@@ -17,35 +17,51 @@ function toggle_visbility(make_visible, currently_visible) {
 	return make_visible;
 }
 
+
+function toggle_italic(make_italic, currently_italic) {
+	document.getElementById(currently_italic).style.fontStyle = "normal";
+	document.getElementById(make_italic).style.fontStyle = "italic";
+
+	// Return id of content that is now visible
+	return make_italic;
+}
+
 var doc = window.document;
 var currently_visible = "about";
+var currently_italic = "option-about";
 
 // about
 var about = doc.getElementById("option-about")
 about.onclick = function () {
 	currently_visible = toggle_visbility("about", currently_visible);
+	currently_italic = toggle_italic("option-about", currently_italic);
 }
 
 // resume
 var resume = doc.getElementById("option-resume")
 resume.onclick = function () {
 	currently_visible = toggle_visbility("resume", currently_visible);
+	currently_italic = toggle_italic("option-resume", currently_italic);
+
 }
 
 // projects
 var projects = doc.getElementById("option-projects")
 projects.onclick = function () {
 	currently_visible = toggle_visbility("projects", currently_visible);
+	currently_italic = toggle_italic("option-projects", currently_italic);
 }
 
 // interests
 var interests = doc.getElementById("option-interests")
 interests.onclick = function () {
 	currently_visible = toggle_visbility("interests", currently_visible);
+	currently_italic = toggle_italic("option-interests", currently_italic);
 }
 
 // contact
 var contact = doc.getElementById("option-contact")
 contact.onclick = function () {
 	currently_visible = toggle_visbility("contact", currently_visible);
+	currently_italic = toggle_italic("option-contact", currently_italic);
 }
