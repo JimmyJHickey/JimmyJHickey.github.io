@@ -3,6 +3,7 @@
 	color: lightpink;
 	font-family: monospace;
 	box-sizing: border-box;
+	font-size: 15px;
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 }
 
 .header-caption{
-	font-size: 35px;
+	font-size: 25px;
 }
 
 #options_bar{
@@ -24,12 +25,12 @@ a{
 	list-style-type: none;
 	align-items: center;
 
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 #options_bar > li {
-	font-size: 25px;
+	font-size: 30px;
 	padding: 0px 40px 0px 40px;
 	justify-content: center;
 	flex: 1;
@@ -44,6 +45,14 @@ a{
 
 }
 
+#interests_container{
+	display: flex;
+}
+
+.list_name{
+	font-size: 25px;
+}
+
 #resume{
 	display: none;
 }
@@ -52,16 +61,12 @@ a{
 	display: none;
 }
 
-#interests{
-	display: none;
-}
-
 #contact{
 	display: none;
 }
 
-#contact_list{
-	list-style-type: none;
+#contact_table{
+	display: flex;
 }
 
 #contact_table{

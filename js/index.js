@@ -52,13 +52,6 @@ projects.onclick = function () {
 	currently_italic = toggle_italic("option-projects", currently_italic);
 }
 
-// interests
-var interests = doc.getElementById("option-interests")
-interests.onclick = function () {
-	currently_visible = toggle_visbility("interests", currently_visible);
-	currently_italic = toggle_italic("option-interests", currently_italic);
-}
-
 // contact
 var contact = doc.getElementById("option-contact")
 contact.onclick = function () {
