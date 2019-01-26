@@ -11,6 +11,11 @@ a{
 	font-style: italic;
 }
 
+button{
+	padding-left: 0px;
+}
+
+
 .header-text{
 	font-size: 60px;
 	text-decoration: underline;
@@ -34,6 +39,8 @@ a{
 	padding: 0px 40px 0px 40px;
 	justify-content: center;
 	flex: 1;
+	cursor: pointer;
+	float: left;
 }
 
 #option-about{
@@ -46,7 +53,13 @@ a{
 }
 
 #interests_container{
-	display: flex;
+	display:inline;
+	float: left;
+}
+
+#interests_container > div{
+/*	float: left;*/
+	text-align: left;
 }
 
 .list_name{
@@ -72,3 +85,19 @@ a{
 #contact_table{
 	font-size: 20px;
 }
+
+.accordion {
+	border: none;
+	cursor: pointer;	
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	font-style: italic;
+}
+
+.panel {
+	display: none;
+	overflow: hidden;
+}
+

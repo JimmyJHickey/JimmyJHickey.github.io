@@ -47,43 +47,109 @@
 				You'll probably learn more about me here than from my resum&eacute;.
 			</p>
 				
-		<div id="interests_cotainer">
+		<div id="interests_container">
 			
-			<ul id = "tv_shows"> 
-				<span class="list_name">Television shows I like</span>
-				<li>It's Always Sunny In Philadephia</li>
-				<li>Modern Family</li>
-				<li>M*A*S*H</li>
-				<li>Seinfeld</li>
-				<li>Black Mirror</li>
-				<li>Brooklyn Nine-Nine</li>
-			</ul>
+			<div id = "television_div">
+				<button class="list_name accordion">TV shows I like</button>
+					<ul id = "tv_shows" class = "panel"> 
+						<li>It's Always Sunny In Philadephia</li>
+						<li>Modern Family</li>
+						<li>M*A*S*H</li>
+						<li>Seinfeld</li>
+						<li>Black Mirror</li>
+						<li>Brooklyn Nine-Nine</li>
+					</ul>
+			</div> <!-- television -->
 			
-			<ul id = "musicians"> 
-				<span class="list_name"> Musicians I like </span>
-				<li> Vampire Weekend</li>
-				<li> Father John Misty</li>
-				<li> Billy Joel</li>
-				<li> Watsky</li>
-			</ul> <!-- musicians -->
+			<div id="musicians_div">
+				<button class="list_name accordion">Musicians I like</button>
+				<ul id = "musicians" class = "panel"> 
+					<li> Vampire Weekend</li>
+					<li> Father John Misty</li>
+					<li> Billy Joel</li>
+					<li> Watsky</li>
+				</ul> 
+			</div> <!-- musicians -->
 			
-			<ul id="political">
-				<span class="list_name"> Here are some of my more politically charged opinions</span>
-				<li> Dark theme > Light theme</li>
-				<li> Monospace > Variable-width</li>
-				<li> 0 based indexing > 1 based indexing</li>
-				<li>Oxford comma > No Oxford comma </li>
-			</ul> <!-- political opinions -->
+			
+			<div id="podcast_div">
+				<button class="list_name accordion">Podcasts I like</button>
+				<ul id="podcast" class="panel">
+					<li>The Omnibus Project</li>
+					<li>Stuff You Should Know</li>
+					<li>This American Life</li>
+					<li>Monday Morning Podcast</li>
+					<li>Conan O'Brien Needs a Friend</li>
+				</ul>
+			
+			</div> <!-- podcast -->
+			
+			<div id="political_div">
+				<button class="list_name accordion"> My more politically charged opinions</button>
+				<ul id="political" class = "panel">
+					<li> Dark theme > Light theme</li>
+					<li> Monospace > Variable-width</li>
+					<li> 0 based indexing > 1 based indexing</li>
+					<li>Oxford comma > No Oxford comma </li>
+				</ul>
+			</div> <!-- political opinions -->
+			
+
 			
 		</div> <!-- interests container-->
 		
 	</div> <!-- about -->
 	
 	<div id="resume">
-		<span class="header-caption">Synopsis</span>
-		<p>I'm a programmer at Mayo Clinic. I graduated from Winona State University.</p>
+		<div id="resume_synopsis">
+			<span class="header-caption">Synopsis</span>
+			<p>I'm a programmer at Mayo Clinic. I graduated from Winona State University.</p>
+		</div> <!-- resume synopsis -->
 		
-		<a href="/img/Jimmy_Hickey_Resume.pdf" target="_blank" class="header-caption">Have it as a file</a>
+		<div id=resume_file>
+			<a href="/img/Jimmy_Hickey_Resume.pdf" target="_blank" class="header-caption">Have it as a file</a>
+		</div>
+		
+		<div id="work_experience">
+			<button class="header-caption accordion">Work Experience</button>
+			<div class="panel">
+				I work
+			</div>
+		</div> <!-- work experience -->
+		
+		<div id="graduate">
+			<button class="header-caption accordion">Graduate</button>
+			<div class="panel">
+				TBD
+			</div>
+		</div> <!-- graduate -->
+		
+		
+		<div id="undergraduate">
+			<button class="header-caption accordion">Undergraduate</button>
+			<div class="panel">
+<!--
+				<p>
+					Winona State University
+					Fall 2014 -- Spring 2018
+					BS Computer Science
+					BS Physics
+					BA Mathematics
+					Minor Statistics
+					Minor Data Science
+				</p>
+-->
+			</div>
+		</div> <!-- undergraduate -->
+		
+		<div id="extracurricular">
+			<button class="header-caption accordion">Extracurricular</button>
+			<div class="panel">
+				My extracurriculars
+			</div>
+		</div>
+			
+			
 	</div> <!-- resume -->
 	
 	<div id="projects">
