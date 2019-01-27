@@ -70,6 +70,18 @@ button{
 	display: none;
 }
 
+.job_title{
+    font-size: 20px;
+}
+
+.job_dates{
+    font-size: 15px;
+}
+
+.job_description{
+    font-size: 15px;
+}
+
 #projects{
 	display: none;
 }
