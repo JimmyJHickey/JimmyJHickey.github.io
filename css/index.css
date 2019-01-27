@@ -11,6 +11,12 @@ a{
 	font-style: italic;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
 button{
 	padding-left: 0px;
 }
@@ -29,7 +35,6 @@ button{
 	display: flex;
 	list-style-type: none;
 	align-items: center;
-
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -57,11 +62,6 @@ button{
 	float: left;
 }
 
-#interests_container > div{
-/*	float: left;*/
-	text-align: left;
-}
-
 .list_name{
 	font-size: 25px;
 }
@@ -70,8 +70,14 @@ button{
 	display: none;
 }
 
-.job_title{
+.job_company{
     font-size: 20px;
+    text-decoration: underline;
+}
+
+.job_title{
+    font-size: 17px;
+    font-weight: 1000;
 }
 
 .job_dates{
@@ -80,6 +86,11 @@ button{
 
 .job_description{
     font-size: 15px;
+}
+
+#skills{
+    margin: 0px;
+    padding: 0px;
 }
 
 #projects{
