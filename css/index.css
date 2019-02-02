@@ -21,6 +21,21 @@ button{
 	padding-left: 0px;
 }
 
+.accordion {
+	border: none;
+	cursor: pointer;	
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	font-style: italic;
+}
+	
+
+.panel {
+	display: none;
+	overflow: hidden;
+}
 
 .header-text{
 	font-size: 60px;
@@ -93,6 +108,52 @@ button{
 	display: none;
 }
 
+.project_title{
+	font-size: 25px;
+	text-align: center;
+}
+
+.project_flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+	float: left;
+	padding: 15px;
+}
+
+
+.project_img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+/* Column widths*/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-project-left {width: 30%;}
+    .col-project-right {width: 70%;}
+	.project_title{text-align: left;}
+	.project_img{
+					width: 100%;
+					max-height: 300px;
+					display: block;
+					margin-left: auto;
+					margin-right: auto;	
+	}
+}
+
+
+#connect4_img{
+	max-width: 60%;
+}
+
 #contact{
 	display: none;
 }
@@ -104,19 +165,3 @@ button{
 #contact_table{
 	font-size: 20px;
 }
-
-.accordion {
-	border: none;
-	cursor: pointer;	
-	transition: 0.4s;
-}
-
-.active, .accordion:hover {
-	font-style: italic;
-}
-
-.panel {
-	display: none;
-	overflow: hidden;
-}
-
