@@ -119,7 +119,6 @@ button{
 	flex-wrap: wrap;
 }
 
-
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
@@ -127,29 +126,43 @@ button{
 	padding: 15px;
 }
 
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+    .col-project-left{
+		width: 30%;
+	}
+    
+	.col-project-right{
+		width: 70%;
+	}
+	
+	.project_title{
+		text-align: left;
+		font-size: 40px;
+	}
+	
+	.project_img{
+					display: block;
+					margin-left: auto;
+					margin-right: auto;	
+	}
+	
+	.project_description{
+		font-size:20px;
+	}
+	.project_description > a{
+		font-size: inherit;
+	}
+	
+} /* end desktop */
 
 .project_img{
 	width: 50%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;	
-}
-
-/* Column widths*/
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-project-left {width: 30%;}
-    .col-project-right {width: 70%;}
-	.project_title{text-align: left;}
-	.project_img{
-					width: 100%;
-					max-height: 300px;
-					display: block;
-					margin-left: auto;
-					margin-right: auto;	
-	}
-}
-
+} 
 
 #connect4_img{
 	max-width: 60%;
