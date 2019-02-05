@@ -22,6 +22,10 @@ button{
 	padding-left: 0px;
 }
 
+button:focus{
+	outline:0;
+}
+
 .accordion {
 	border: none;
 	cursor: pointer;	
