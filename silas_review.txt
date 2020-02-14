@@ -1,0 +1,131 @@
+~~~~~~ INTRO ~~~~~~
+
+Dr. Silas Bergen has recently applied for tenure. As part of his promotion process, Dr. Bergen asked me to write him a letter of recommendation.
+In lieu of an essay, I have organized my review of Dr. Bergen into this web page.
+
+
+Explore Dr. Bergen's office. Some objects will hold information to assist you in making your decision.
+Click these objects to learn more. When you find all of the items, you will be able to read my conclusion.
+Click on Silas to return to these instructions.
+
+
+
+~~~~~ TEACHING ~~~~~~
+Dr. Bergen is one of the best professors that I have had for many reasons.
+<br /><br />
+
+He incorporates peer reviews into his teaching. In his STAT 210 class, this forces students to review the material, identify common mistakes, and understand how to get the correct answer.
+I think this process often goes unappreciated by students (myself included). If Silas were to just provide the solution guide, it is likely that I wouldn't even look at it, let alone compare it to my answers.
+By forcing students to correct each others assignments, they are required to review the correct answers and the process behind it.
+These peer reviews are even more useful in DSCI 310. I gained a lot of insight into data visualization and techniques by reviewing my peers Tableau projects.
+I was exposed to different ways to display the same information that I worked on. I could click through their files and learn the mechanics behind the graphs and understand how to make and modify them myself for the future.
+More importantly, it made me critique what information a visualization actually communicated. Labels and titles can lie; I learned to closely pay attention to my own data.
+In this I would often realize that my own work did not answer the question that I was trying to address.
+After reviewing the work of others I became far more cautious with my own work and take steps back to ensure I am properly addressing my questions.
+<br /><br />
+
+One of the best parts about taking a class with Dr. Bergen is the adaptive curriculum. The field of Data Science is rapidly evolving; Silas keeps his classes up to date with the latest techniques and technologies while also incorporating the basics necessary to learn whatever comes out next.
+In his DSCI 310 class, he started with elementary perceptual tasks (EPTs). These were the basics we would need for all data visualization. From there we learned to use the state of the art software Tableau, which allowed us to easily practice making visualizations with these EPTs without too much technological overhead.
+After much practice, we were given a crash course on ggplot2, a popular package for data visualization in the R and Python programming languages. Exposing us to the basics of ggplot gave us an insight into another technology while not stifling our initial learning with cumbersome syntax.
+<br /><br />
+Silas also enrolled us in Data Camp courses. These are online courses that we used to learn ancillary skills that we would need in our careers.
+Students could pace themselves and finish the online courses as they had time. Many of us had not taken an online course of this manner before; now, they are a very popular way to learn skills in the industry.
+<br /><br />
+Silas is able to adapt his lesson plans on the fly to fit the daily needs of his students. If we needed a more thorough explanation of something, we could take the time for it.
+If we needed more time to work on our projects, we could take time in class to work in groups and ask him questions.
+<br /><br />
+At that, our midterm project was also adapted to real time news; it was an actual, national visualization challenge set out by the American Statistical Society.
+While the homework assignments were useful for learning to make insights, it was fun to work with real data. Each group had a different approach and different findings.
+For the final project, we got to pose our own questions and find our own data. This required us to learn a lot about data preparation on top of making our visualizations and telling our stories.
+Silas was always able to provide insight and advice, even though with an unfamiliar topic.
+This final project was one of assignments that I put the most effort and passion into because I could explore an area of my interest.
+This inspired me to continue my practice in Data Science and visualization on my own time and work on my own projects.
+
+~~~~~ Student Rapport ~~~~
+
+My favorite part about having Dr. Bergen as a professor was the rapport that he had with his students.
+
+<br /> <br />
+
+I think I learned as much from Silas in his office hours as I did in class.
+The thing that I appreciate above all else about Silas was his availability. If he wasn't in class, he was in his office with the door ajar.
+I probably visited more outside of his posted office hours than within them. This is something that I rarely see outside of the department.
+He would instantly drop whatever he was working on to address my concerns. The dedication Silas showed to his students really made me feel at home in the department, and I didn't even have a major with them.
+
+Silas was always willing to help with any problem I encountered. Even if he didn't know the context (i.e. a project where I chose the data and defined the problem) he was willing to sit and help me resolve my issues.
+He would offer helpful advice and exhibited unrivaled patience. Silas would sit there as I tried different visualizations or data cleaning techniques and help me work through problems as the occurred.
+He would listen to me as I explained what I was trying to do (no matter how convoluted), and would explain how I could improve. Silas was always willing to help with a problem, no matter how big or small. I even sometimes went to him for problems I was encountering in other statistics courses.
+He also took some of his hours to the KEAP center, which I think is important.
+
+<br /> <br />
+
+Silas heavily pushed his end of course survey at the end of DSCI 310. I think that these are very valuable for the improvement of the class. If there is one professor that would take the advice of his students seriously, it's Dr. Bergen.
+
+<br /> <br />
+
+He invited the graduating seniors out to Island City for an afternoon of card games. This sense of community is something that lacks most departments. It was light, fun, and a nice way to get to hang out with my class mates and professors before we parted ways.
+It should be noted that Silas won all of the card games. Handily. I later saw him again at Island City for one of their trivia nights. I tried to get him to throw the game in exchange for a good review. He called my bluff and beat us anyways.
+
+
+~~~ Extra Curriculars ~~~~~
+
+The most valuable experiences that we are afforded in the Statistics and Data Science department are the opportunities to participate in extra curricular activities.
+With a small department, these activities are a lot of work for the professors, but they are where I learned the most.
+
+The two biggest extra curriculars are MUDAC and MinneMUDAC. These competitions take an immense amount of work to plan and coordinate. Particularly MUDAC, as it has historically been on home soil.
+The department had to scout teams, prepare the data, set up a website, plan the logistics for the day itself, etc. Again, with such a small department this puts a lot of work on each of the professors' shoulders while also teaching their classes.
+
+These competitions give students the opportunity to apply the skills they learned in class and learn new skills required to solve their problems. On top of that, it gives us a chance to network with people from the industry, some of which offered us interviews.
+<br /> <br />
+
+The reason we do so well in these competitions is because of the amazing education that we receive in this department.
+And the most important skill I learned in this whole department was how to communicate data from Dr. Bergen's DSCI 310 class.
+
+<br /> <br />
+
+Silas volunteered to put on a workshop for our Women in Computer Science Club just days after MUDAC. He presented the essential topics we learned in DSCI 310 and built off of another workshop given earlier in the semester.
+This was a perfect introduction to Visualization. It kept people engaged with hands-on activities. The content was understandable to novices outside of the DSCI/STAT world while also providing that sense of accomplishment that comes when you create something from scratch.
+Even after taking his course, I learned from this workshop and it was well received by the audience!
+
+
+
+
+~~~~ Ambassador ~~~~
+
+Though Winona is a smaller school which is lesser known outside of Minnesota, I believe that we have one of the best Statistics and Data Science departments.
+Dr. Bergen is helping spread the Winona State name as well as the fantastic education that we are offered here.
+As far as I know, he has done presentation and workshops in both Florida and Japan.
+
+He helped organize, host, and teach an REU program last summer for four students at Winona State.
+
+Silas also helps our students get our names across. Aside from the competitions, he brought students to SportsCon where they could learn more about applications of their studies and network.
+He brought some students from his DSCI 310 class to St. Olaf's to present our projects to some students there. He also helped organize our teleconference to the person on the Police Data Challenge team.
+
+~~~ Personal Recommendations ~~~
+
+
+I was planning a post-graduation trip to Seattle. Since I knew that Silas had graduated from the University of Washington and lived in Seattle throughout graduate school, I went to him for travel advice.
+What I got out of it was a mediocre donut shop. The morning I came back from my trip I met with Silas to present our work for the Police Data Challenge. It was then that he informed me that the tallest building in Seattle (yes, taller than the Space Needle), with the best view, was a cool spot to check out.
+
+<br /> <br />
+Moral of the story. Don't ask him for travel advice.
+
+<br /> <br />
+ Though to Silas's credit, I did once ask him for podcast recommendations and he sent me some good ones.
+
+
+
+~~~~ Verdict ~~~
+
+Dr. Silas Bergen more than deserves a tenured position.
+
+<br /> <br />
+
+His teaching style really reinforces the information presented in class and is kept up to date.
+He is always available to help his students; he listens to them and makes them feel respected during his office hours.
+He puts in extra time and effort to help build a sense of community and provide additional educational opportunities with his students.
+He helps spread name and education of Winona State far and wide. There is no one better fit. I didn't know any web programming going into this project and I wouldn't learn it for just anybody.
+
+
+<br /> <br />
+Silas will put your trivia team on his back; just don't involve him in your travel arrangements.
